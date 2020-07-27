@@ -15,4 +15,5 @@ git merge require_shader
 git merge renik
 git merge main_scene
 git merge threaddesc
+git merge pool_range_ops
 rem git merge editor_plugin_node_ownership
