@@ -4,6 +4,7 @@ git checkout 3.2
 git pull
 git checkout -b groups 3.2
 git fetch SaracenOne
+git fetch lyuma
 git merge remotes/SaracenOne/fire_skeleton_inspector
 git merge remotes/SaracenOne/colshape_race_cond_fix
 git merge remotes/SaracenOne/scene_tree_improvements
@@ -17,4 +18,5 @@ git merge remotes/SaracenOne/renik
 git merge remotes/SaracenOne/main_scene
 git merge remotes/SaracenOne/threaddesc
 git merge remotes/SaracenOne/pool_range_ops
+git merge remotes/lyuma/non_normalized_weight_fixes
 rem git merge editor_plugin_node_ownership
