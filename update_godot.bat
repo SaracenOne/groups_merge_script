@@ -3,17 +3,18 @@ git branch -D groups
 git checkout 3.2
 git pull
 git checkout -b groups 3.2
-git merge fire_skeleton_inspector
-git merge colshape_race_cond_fix
-git merge scene_tree_improvements
-git merge filesystem_dock_resource_converter
-git merge audio_effect_stream
-git merge better_bullet
-git merge gizmo_improvements
-git merge rpc_mode_get
-git merge require_shader
-git merge renik
-git merge main_scene
-git merge threaddesc
-git merge pool_range_ops
+git fetch SaracenOne
+git merge remotes/SaracenOne/fire_skeleton_inspector
+git merge remotes/SaracenOne/colshape_race_cond_fix
+git merge remotes/SaracenOne/scene_tree_improvements
+git merge remotes/SaracenOne/filesystem_dock_resource_converter
+git merge remotes/SaracenOne/audio_effect_stream
+git merge remotes/SaracenOne/better_bullet
+git merge remotes/SaracenOne/gizmo_improvements
+git merge remotes/SaracenOne/rpc_mode_get
+git merge remotes/SaracenOne/require_shader
+git merge remotes/SaracenOne/renik
+git merge remotes/SaracenOne/main_scene
+git merge remotes/SaracenOne/threaddesc
+git merge remotes/SaracenOne/pool_range_ops
 rem git merge editor_plugin_node_ownership
